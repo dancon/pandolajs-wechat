@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/home",
+    "pages/generator/generator"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Pandolajs",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabbar": [
+    
+  ]
+}
