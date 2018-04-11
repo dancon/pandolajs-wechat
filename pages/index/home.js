@@ -1,26 +1,28 @@
 // pages/index/home.js
+import fetch from '../../utils/fetch.js'
+import regeneratorRuntime from '../../utils/regenerator-runtime/runtime-module.js'
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    msg: 'hello world!'
+    msg: 'hello world!',
+    items: [0, 1, 2, 3]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: async (options) => {
     console.log('Pandolajs 首页加载完毕~~')
+    const result = fetch('')
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
-  
-  },
 
   /**
    * 生命周期函数--监听页面显示

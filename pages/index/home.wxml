@@ -1,2 +1,7 @@
 <!--pages/index/home.wxml-->
 <text>{{msg}}</text>
+<view wx:for="{{items}}">{{item}}</view>
+<block wx:for="{{items}}" wx:for-index="idx">
+  <view>{{idx}} :</view> 
+  <text>{{item}}</text>
+</block>
